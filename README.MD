@@ -33,31 +33,30 @@ Provides optimized route recommendations
 
 🏗 System Architecture
 Traffic Data Sources
-(Cameras / Sensors / GPS / APIs)
-          │
-          ▼
-     Data Ingestion Layer
-          │
-          ▼
-      Data Processing
-(Cleaning, Transformation)
-          │
-          ▼
-   Feature Engineering
-          │
-          ▼
- Machine Learning Models
-(Traffic Prediction Engine)
-          │
-          ▼
- Route Optimization Engine
-          │
-          ▼
-  API Services & Backend
-          │
-          ▼
-   User Applications
-(Web Dashboard / Mobile App)
+        │
+        ▼
+Data Collection
+        │
+        ▼
+Data Cleaning & Processing
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Machine Learning Model Training
+        │
+        ▼
+Real-Time Traffic Prediction
+        │
+        ▼
+Route Optimization
+        │
+        ▼
+User Dashboard / Navigation Integration
+
+
+
 ⚙️ Technology Stack
 Layer	Technology
 Programming	Python
@@ -68,7 +67,8 @@ Database	PostgreSQL / MongoDB
 Visualization	Streamlit / Dashboard
 Data Sources	IoT Sensors, Cameras, Traffic APIs
 
-📂 Project Structure
+
+project Folder 📂 
 RouteGenius/
 │
 ├── README.md
@@ -108,29 +108,6 @@ RouteGenius/
 │
 └── docs/
     └── architecture_diagram.png
-🔄 System Workflow
-Traffic Data Sources
-        │
-        ▼
-Data Collection
-        │
-        ▼
-Data Cleaning & Processing
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Machine Learning Model Training
-        │
-        ▼
-Real-Time Traffic Prediction
-        │
-        ▼
-Route Optimization
-        │
-        ▼
-User Dashboard / Navigation Integration
 
 📊 Example Use Case
 ###Traffic sensors detect increasing vehicle density near Hinjawadi IT Park.
